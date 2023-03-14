@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Russo+One&display=swap');
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-header-fundo : linear-gradient(to right, #008f99b4, #00CBDA, #017C88, #04171f);
+    --cor-bordas-azul : linear-gradient(to right, #008f9928, #00CBDA, #017C88, #017d8838,);
+    --cor-branca : #fff;
+    --cor-azul : #45f3ff;
+    --cor-funndo:#000b0c;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: var(--cor-funndo) !important;
+    
+}
+header{
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    
+}
+.header_conteiner{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.img_header {
+    position: relative !important;
+    width: 70vw !important;
+    height: 80vh !important;
+    display: flex !important;
+    justify-content: space-around !important;    
+    align-items: center !important;
+  }
+  
+  .border-bottom-gradient {
+    width: 80%;
+    height: 10px;
+    background-image: linear-gradient(to right, #008f9904, #00cbda, #017c88, #017d880c);
+  }
+  
+.png{
+    z-index: 1;
+    height: 80vh;
+    left: 30vh;
+    top: 9.5vh;
+}
+
+.fundo_header{
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    top: 0;
+    z-index: -1;
+}
+nav{
+    background: var(--cor-header-fundo) !important;
+    width: 100% !important;
+    height: 80px !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    gap: 16px !important;
+}
+nav img{
+    height: 5vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 2.5vh;
+    color: var(--cor-branca)
+}
+/*search*/
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+  }
+  
+  .input {
+    border-style: none;
+    height: 2.5vw;
+    width: 3vh;
+    padding: 1vh;
+    outline: none;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    background-color: var(--cor-azul);
+    box-shadow: 0px 0px 1vh var(--cor-branca);
+    padding-right: 4vh;
+    color: var(--cor-branca);
+  }
+  
+  .input::placeholder,
+  .input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vh;
+  }
+  
+  .input::placeholder {
+    color: var(--cor-branca);
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 1vh;
+    cursor: pointer;
+    height: 2.5vw;
+    width: 3vh;
+    outline: none;
+    border-style: none;
+    border-radius: 50%;
+    pointer-events: painted;
+    background-color: transparent;
+    transition: .2s linear;
+  }
+  
+  .icon:focus ~ .input,
+  .input:focus {
+    box-shadow: none;
+    width: 15vw;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 0.3vh solid var(--cor-azul);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  
+  
+  
+/*------------------------------------------------*/  
+#pesquisa{
+    width: 10vw;
+    height: 3vh;
+    border: 1px solid var(--cor-branca);
+    background: none;
+    border-radius: 50px;
+
+}
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.calculadora_header{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.calculadora_header h1{
+    font-size: 5vw;
+    font-weight: 900;
+    min-width: 375px;
+    color: var(--cor-branca);
+    font-family: 'Russo One', sans-serif;
+
+}
+.calculadora_header  h2{
+    font-size: 5vw;
+    font-weight: 900;
+    min-width: 375px;
+    color: var(--cor-branca);
+    display: flex;
+    display: block;
+    font-family: 'Russo One', sans-serif;
+}
+.calculadora p{
+    color: var(--cor-branca);
+    width: 80vh;
+    min-width: 375px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.calculo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+/*calculor */
+.inputbox {
+    position: relative;
+    width: 10vw;
+  }
+  
+  .inputbox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+  }
+  
+  .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    font-size: 1em;
+    color: var(--cor-branca);
+    letter-spacing: 00.05em;
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  
+  .inputbox input:valid ~span,
+  .inputbox input:focus ~span {
+    color: #45f3ff;
+    transform: translateX(-10px) translateY(-34px);
+    font-size: 0,75em;
+  }
+  
+  .inputbox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #45f3ff;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+  }
+  
+  .inputbox input:valid ~i,
+  .inputbox input:focus ~i {
+    height: 44px;
+  }
+
+  /*button input*/
+  #calcular {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid #45f3ff62;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: var(--cor-branca);
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+  }
+  
+  #calcular:hover {
+    background: #45f3ff;
+    box-shadow: 0 0 30px 5px rgba(80, 170, 230, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+  #calcular:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+  
+  #calcular::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: var(--cor-branca);
+    box-shadow: 0 0 50px 30px var(--cor-branca);
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  @keyframes sh02 {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  
+  button:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+  }
+  
+  /*------------------------------------------*/
+  #resposta{
+    font-size: 10vh;
+    color: var(--cor-branca);
+    font-family: 'Russo One', sans-serif;
+    margin-top: 20px;
+  }
+  section{
+    color: var(--cor-branca);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .comofunciona{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .imc_sobre_primary{
+    width: 25vw;
+  }
+  .borde_tabe{
+    width: 100%;
+    height: 0.5vh;
+    display: block;
+    background-image: linear-gradient(to right, #008f9904, #00cbda, #017c88, #017d880c);
+  }
+  table{
+    font-size: 2.5vh;
+    text-align: center;
+    
+  }
+  .main_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+ .imc_sobre{
+    width: 80vw;
+    
+   
+    
+ }
+ .imc_sobre h1{
+    color: var(--cor-azul);
+    font-family: 'Russo One', sans-serif;
+ }
