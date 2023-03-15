@@ -1,0 +1,89 @@
+nav ul{
+    gap: 5px;
+}
+nav ul li a{
+    font-size: 12px;
+}
+.png{
+    display: none;
+}
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.calculadora h1{
+    font-size:60px;
+}
+.calculadora h2{
+    font-size:60px;
+}
+.calculadora p{
+    width: 500px;
+}
+.calculo{
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#resposta{
+    font-size: 40px;
+    text-align: center;
+}
+.comofunciona{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+table{
+    width: 375px;
+}
+.imc_sobre_primary{
+    width: 500px;
+    text-align: center;
+}
+.imc_sobre_primary h1{
+    font-size: 35px;
+}
+.imc_sobre_primary p{
+    margin: 30px  0px ;
+}
+.imc_sobre{
+    width: 500px;
+    
+}
+.img_sobre{
+    width: 500px;
+    height: 100px;
+    display: none;
+}
+.sobre {
+width: 500px;
+}
+.sobre h1{
+    font-size: 25px;
+}
+.sobre p{
+    font-size: 15px;
+}
+
+
+
+.newsletter input{
+    max-width: 100%;
+    background: var(--cor-branca);
+    font-size: 16px;
+    height: 33px;
+    color: var(--cor-funndo);
+    border-radius: 5px;
+    outline: none;
+    padding: 0 50px 0 0;
+    margin-right: 15px;
+    
+    
+ }

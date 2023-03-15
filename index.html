@@ -2,7 +2,8 @@
 <html lang="pt-br">
 <head>
   <link rel="stylesheet" href="./css/style.css">
-  
+  <link rel="stylesheet" type="text/css" media="(max-width: 765px)" href="css/mobile765.css"> 
+    <link rel="stylesheet" type="text/css" media="(max-width: 500px)" href="css/mobile475.css"> 
           
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,10 +17,10 @@
       <nav >
         <img src="./img/logo.png" alt="">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Membeship</a></li>
-          <li><a href="#">Classes</a></li>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Metabolismo</a></li>
+          <li><a href="#">Exercicios</a></li>
           <div class="input-wrapper">
             <button class="icon"> 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="25px" width="25px">
@@ -95,71 +96,58 @@
       </div>
       </div>
       <div class="main_section">
-        <div class="imc_sobre">
-            <h1>O que é IMC?</h1>
-        <p>A sigla IMC significa Índice de Massa Corporal, que representa uma relação entre o peso e a altura de uma pessoa. Esse índice é usado pela Organização Mundial da Saúde (OMS) como referência para identificar situações de obesidade ou desnutrição, com base no peso ideal. Ainda que não seja o único parâmetro para determinar se alguém é ou não saudável.</p>
-        <p>Mesmo assim, o IMC pode ser um ponto de partida para mudanças na rotina que priorizem um estilo de vida mais saudável, com o consumo de alimentos mais nutritivos e a prática constante de exercícios. No entanto, não deixe de consultar um(a) nutricionista, pois esse é o profissional que pode te orientar corretamente quanto a isso.</p></div>
-        <div class="imc_sobre">
+        <div class="imc_sobre">      
+            <div class="img_sobre img_sobre_1" >
+              <img src="./img/imc_1.png" alt="" class="img_1">
+            </div>          
+            <div class="sobre">
+              <h1>O que é IMC?</h1>
+                      <p>A sigla IMC significa Índice de Massa Corporal, que representa uma relação entre o peso e a altura de uma pessoa. Esse índice é usado pela Organização Mundial da Saúde (OMS) como referência para identificar situações de obesidade ou desnutrição, com base no peso ideal. Ainda que não seja o único parâmetro para determinar se alguém é ou não saudável.</p>
+                      <p>Mesmo assim, o IMC pode ser um ponto de partida para mudanças na rotina que priorizem um estilo de vida mais saudável, com o consumo de alimentos mais nutritivos e a prática constante de exercícios. No entanto, não deixe de consultar um(a) nutricionista, pois esse é o profissional que pode te orientar corretamente quanto a isso.</p>
+            </div></div>
+        <div class="imc_sobre">          
+          <div class="sobre">
         <h1>Por que é importante saber o seu IMC?</h1>
         <p>Como falamos, esse índice serve como parâmetro para uma primeira análise das condições de saúde de uma pessoa. Em crianças, por exemplo, o IMC pode indicar se há um provável caso de desnutrição. Em adultos, ele pode ser uma primeira análise em pessoas que têm mais chances de desenvolver doenças como pressão alta, diabetes e outras ocorrências cardíacas.</p>
         
         <p>Entretanto, como o IMC tem relação com a gordura acumulada no corpo, seu resultado nem sempre é certeiro, especialmente para pessoas muito musculosas, grávidas ou idosos, situações em que os números não revelam a realidade. Nesses casos, o ideal é a combinação com outras análises para avaliar um panorama mais realista.</p>
-            </div><div class="imc_sobre">
+      </div><div class="img_sobre img_sobre_2"><img src="./img/imc_2.jpg" alt="" class="img_2"></div></div>
+            <div class="imc_sobre">
+              <div class="img_sobre img_sobre_1"><img src="./img/imc_3.jpg" alt=""class="img_1"></div>
+              <div class="sobre">
         <h1>O que o IMC tem a ver com dinheiro?</h1>
         <p>Talvez seja estranho ver uma calculadora de IMC em um site que fala sobre finanças, certo? Porém, cuidar da saúde tem muito a ver com seu dinheiro. Isso porque, quando estamos mais saudáveis, tendemos a ter menos gastos com remédios, médicos, cirurgias e tratamentos.</p>
         
-        <p>Assim, quando você se preocupa com seu corpo, pode aproveitar para usar seu capital em outras despesas, no seu lazer ou até mesmo para investir e se preparar melhor para o futuro. Afinal, não sabemos quando iremos precisar de mais cuidados, mas uma certeza que temos é que vamos envelhecer, concorda? Por isso, prestar atenção ao seu IMC e à sua saúde em geral hoje, também é cuidar do seu futuro.</p></div>
-        <div class="imc_sobre">
-        <h1>Perguntas frequentes sobre IMC</h1>
-        <h3>Qual o cálculo do IMC?</h3>
-        <p>Para calcular o IMC, basta dividir o peso (em quilos) pelo quadrado da altura (em metros): IMC = peso/altura²</p>
-            </div>
-        </div>
+        <p>Assim, quando você se preocupa com seu corpo, pode aproveitar para usar seu capital em outras despesas, no seu lazer ou até mesmo para investir e se preparar melhor para o futuro. Afinal, não sabemos quando iremos precisar de mais cuidados, mas uma certeza que temos é que vamos envelhecer, concorda? Por isso, prestar atenção ao seu IMC e à sua saúde em geral hoje, também é cuidar do seu futuro.</p></div></div>
+        
         
       </div>
-      <div class="container">
-          <h2>Accordion Example</h2>
-          <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
-          <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
-                </h4>
-              </div>
-              <div id="collapse1" class="panel-collapse collapse in">
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
-                </h4>
-              </div>
-              <div id="collapse2" class="panel-collapse collapse">
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
-                </h4>
-              </div>
-              <div id="collapse3" class="panel-collapse collapse">
-                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-              </div>
-            </div>
-          </div>
-        </div>
+      
     </section>
+    <footer>
+      <div class="newsletter">
+        <h1>Newsletter</h1>
+        <form action=""><input type="email" name="email" id="email">
+        <input type="button" value="Enviar" id="button_news">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span> </form>
+      </div>
+      <div class="contatos">
+        
+        <a href="#"><ion-icon name="globe-sharp"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+      </div>
+      <div class="direitos">
+        <p> © DESENVOLVIDO POR <a href="#"> LUIZ GUSTAVO</a></p>
+      </div>
+    </footer>
       <script src="./script.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

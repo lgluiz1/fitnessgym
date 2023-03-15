@@ -1,0 +1,125 @@
+
+nav ul {
+    display: none;
+}
+.png{
+    display: none;
+}
+header{
+    width: 375px;
+}
+.calculadora{
+    text-align: center;
+}
+.calculadora_header h1{
+    text-align: center;
+    font-size: 45px;
+}
+.calculadora_header h2{
+    text-align: center;
+    font-size: 45px;
+}
+.calculadora p{
+    color: var(--cor-branca);
+    width: 80vh;
+    width: 375px;
+    text-align: center;
+    font-size: 20px;
+}
+.calculo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#resposta{
+    font-size: 35px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comofunciona{
+    width: 375px;
+}
+.main_section{
+    overflow: hidden;
+}
+.borde_tabe{
+    width: 375px;
+}
+.imc_sobre{
+    width: 375px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0 0 0;
+    
+}
+.img_sobre{
+    width: 90px;
+    height: 90px;
+    display: none;
+}
+.img_sobre img{
+    height: 200px;
+}
+.sobre{
+    padding: -10px;
+    width: 375px;
+    text-align: center;
+}
+.sobre h1{
+    color: var(--cor-azul);
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+ }
+ .sobre p{
+  font-size: 15px;
+  width: 375px;
+}
+.comofunciona{
+    display: flex;
+    flex-direction: column;
+}
+.imc_sobre_primary{
+    width: 375px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.img_sobre_1{
+    margin-right: -50px;
+}
+.img_sobre_2{
+    margin-left: -40px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.newsletter form{
+    gap: 0;
+}
+.newsletter form input{
+    display: flex;
+    flex-direction: column;
+}
+#email{
+    width: 250px;
+    border: none;
+}
+#button_news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contatos {
+    font-size: 25px;
+}
+.direitos{
+    font-size: 15px;
+}
